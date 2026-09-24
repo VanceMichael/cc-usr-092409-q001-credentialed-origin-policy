@@ -1,0 +1,11 @@
+{
+  "allowed_origins": [
+    "https://ops.example.com",
+    "https://console.example.com:8443"
+  ],
+  "allow_methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
+  "allow_headers": ["Authorization", "Content-Type", "Accept"],
+  "max_age": 600,
+  "allow_localhost": false,
+  "localhost_ports": []
+}
